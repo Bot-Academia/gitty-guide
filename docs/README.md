@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://gittybot.netlify.app/img/gitty_logo.a59e21e0.jpg
 tagline: Official guide of Gitty discord bot
 actionText: Quick Start →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+  - title: Open Source
+    details: This project is fully open sourced.
+  - title: Customizable
+    details: Customize gitty for your own server.
+  - title: Ready to use
+    details: Gitty is available to serve your purpose.
 footer: Made by botacademia with ❤️
 ---
