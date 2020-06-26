@@ -1,9 +1,5 @@
 # Users
 
-## Browser API Access Restrictions
+## How to add Gitty to your server
 
-Because VuePress applications are server-rendered in Node.js when generating static builds, any Vue usage must conform to the [universal code requirements](https://ssr.vuejs.org/en/universal.html). In short, make sure to only access Browser / DOM APIs in `beforeMount` or `mounted` hooks.
-
-If you are using or demoing components that are not SSR friendly (for example containing custom directives), you can wrap them inside the built-in `<ClientOnly>` component:
-
-##
+To add Gitty to your server visit Gitty's official [website](https://gitty.netlify.app).

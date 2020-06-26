@@ -16,7 +16,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ["meta", { name: "theme-color", content: "#3eaf7c" }],
+    ["meta", { name: "theme-color", content: "#edf057" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
       "meta",
@@ -30,11 +30,14 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: "",
-    editLinks: false,
-    docsDir: "",
-    editLinkText: "",
-    lastUpdated: true,
+    lastUpdated: false,
+    search: false,
+    sidebar: "auto",
+    repo: "bot-academia/gitty-guide",
+    docsDir: "gitty-guide",
+    sidebarDepth: 3,
+    editLinks: true,
+    serviceWorker: true,
     nav: [
       {
         text: "Guide",
@@ -44,17 +47,25 @@ module.exports = {
         text: "Gitty",
         link: "https://gittybot.netlify.app/",
       },
-      {
-        text: "Github",
-        link: "https://github.com/bot-academia/gitty",
-      },
     ],
     sidebar: {
       "/guide/": [
         {
-          title: "Guide",
+          title: "Introduction",
           collapsable: false,
           children: ["", "users", "developers"],
+        },
+        {
+          title: "Commands",
+          collapsable: false,
+          children: [
+            "commands/",
+            "commands/general",
+            "commands/organization",
+            "commands/repo",
+            "commands/user",
+            "commands/webhooks",
+          ],
         },
       ],
     },
@@ -63,5 +74,9 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
+  plugins: [
+    "@vuepress/plugin-back-to-top",
+    "@vuepress/plugin-medium-zoom",
+    "@vuepress/pwa",
+  ],
 };
