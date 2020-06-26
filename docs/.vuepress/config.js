@@ -51,7 +51,7 @@ module.exports = {
     sidebar: {
       "/guide/": [
         {
-          title: "Introduction",
+          title: "Getting started",
           collapsable: false,
           children: ["", "users", "developers"],
         },
