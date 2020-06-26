@@ -53,7 +53,7 @@ module.exports = {
         {
           title: "Getting started",
           collapsable: false,
-          children: ["", "users", "developers"],
+          children: ["", "add", "setup"],
         },
         {
           title: "Commands",
