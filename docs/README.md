@@ -8,8 +8,8 @@ features:
   - title: Open Source
     details: This project is fully open sourced.
   - title: Customizable
-    details: Customize gitty for your own server.
+    details: Customize Gitty for your own server.
   - title: Ready to use
     details: Gitty is available to serve your purpose.
-footer: Made by botacademia with ❤️
+footer: Made by Botacademia with ❤️
 ---
