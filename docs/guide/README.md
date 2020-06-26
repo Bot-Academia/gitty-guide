@@ -4,7 +4,7 @@ Gitty is a discord bot made using discord.js a powerful javascript library build
 
 ## What's under the hood?
 
-While buidling Gitty the main aim in our head was to bring github related info over to discord. For making this possible we used the Github api
+While building Gitty the main aim in our head was to bring github related info over to discord. For making this possible we used the Github api
 
 ```
 https://api.github.com/orgs/Bot-Academia
